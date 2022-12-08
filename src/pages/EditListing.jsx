@@ -8,7 +8,7 @@ import {addDoc, collection, doc, getDoc, serverTimestamp, updateDoc} from "fireb
 import {db} from "../firebase"
 import { useNavigate, useParams } from 'react-router-dom';
 
-export default function EditListing() {
+export default function CreateListing() {
     const navigate = useNavigate()
     const auth = getAuth()
     const [geolocationEnabled, setGeolocationEnabled] =useState(true);
